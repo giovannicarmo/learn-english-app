@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PanelComponent } from './panel/panel.component';
+import { ProgressComponent } from './panel/progress/progress.component';
+import { AttemptsComponent } from './panel/attempts/attempts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    PanelComponent
+    PanelComponent,
+    ProgressComponent,
+    AttemptsComponent
   ],
   imports: [
     BrowserModule,
