@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { PanelComponent } from './panel/panel.component';
 import { ProgressComponent } from './panel/progress/progress.component';
 import { AttemptsComponent } from './panel/attempts/attempts.component';
+import { FormComponent } from './panel/form/form.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AttemptsComponent } from './panel/attempts/attempts.component';
     FooterComponent,
     PanelComponent,
     ProgressComponent,
-    AttemptsComponent
+    AttemptsComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,

@@ -4,22 +4,17 @@
       <div class="col-sm-6">
         <app-progress></app-progress>
       </div>
-      <div class="com-sm-6">
+      <div class="col-sm-6 d-flex flex-row-reverse">
         <app-attempts></app-attempts>
       </div>
     </div>
     <div class="row">
       <div class="col">
-        <h4>Traduza a frase abaixo:</h4>
-        <p>How're U?</p>
-        <div class="form-group">
-          <label for="answer">Digite aqui sua resposta:</label>
-          <textarea class="form-control" rows="3"></textarea>
-        </div>
+        <app-form [sentence]="phrase[0].englishPhrase"></app-form>
       </div>
     </div>
     <div class="row d-flex justify-content-end">
-      <button type="button" class="btn btn-primary mr-3">Verificar</button>
+      <button type="button" class="btn btn-primary mr-3">Check</button>
     </div>
   </div>
 </div>
